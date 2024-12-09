@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust: the double mutable borrow.  The code attempts to create two mutable references (`y` and `z`) to the same variable `x` simultaneously. This violates Rust's borrowing rules, resulting in a compile-time error. The solution showcases how to refactor the code to resolve this issue by using a single mutable reference.
